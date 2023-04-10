@@ -59,7 +59,7 @@
 .button {
   border: 1px solid #296fde;
   padding: 10px 20px;
-  border-radius: 11px;
+  border-radius: 8px;
   margin: 5px;
   display: flex;
   justify-content: center;
@@ -133,7 +133,61 @@ header#hero {
   margin: 0;
   color: #296fde;
   background-color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: 2px;
+}
+.btn-hero:hover {
+  box-shadow: 2px 2px 8px #296fde;
+  scale: 1.01;
+  transition: all .3s;
+}
+
+.container-pelayanan-kami {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+.title-pelayanan-kami {
+  color: #296fde;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: .6rem;
+}
+.subtitle-pelayanan-kami {
+  color: #5F6D7E;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container-card-pelayanan {
+  display: flex;
+  justify-content: space-between;
+}
+.card-pelayanan {
+  width: 30%;
+  border: 1.5px solid #3a8ef6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+  text-align: center;
+}
+.logo-pelayanan {
+  margin-bottom: .5rem;
+}
+.title-card-pelayanan {
+  color: #363636;
+  font-weight: 700;
+  font-size: 1.2rem;
+  /* font-style: bold; */
+  letter-spacing: 1px;
+  margin-bottom: .5rem;
+}
+.subtitle-card-pelayanan {
+  color: #7C8B9D;
+  font-size: 1rem;
+  font-weight: 500; 
+  letter-spacing: 1px;
 }
