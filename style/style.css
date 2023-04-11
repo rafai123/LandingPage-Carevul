@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 nav {
   padding: 5px 0;
@@ -22,12 +22,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 150%;
+  font-size: 120%;
   color: #5f6d7e;
 }
 
 .container-menu-nav {
-  margin-left: -20%;
+  margin-left: -10%;
+  /* justify-self: start; */
   /* font-size: 1.2rem; */
 }
 
@@ -56,12 +57,12 @@ nav {
 .container-button-nav {
   display: flex;
   justify-content: space-around;
-  width: 20%;
+  width: 25%;
 }
 
 .button {
   border: 1px solid #296fde;
-  padding: 10px 20px;
+  padding: 10px 20%;
   border-radius: 8px;
   margin: 5px;
   display: flex;
@@ -98,7 +99,7 @@ nav {
 .container-hero {
   display: flex;
   /* height: 30rem; */
-  height: 45vh;
+  height: 50vh;
   /* height: 100%; */
   justify-content: space-between;
 }
@@ -116,7 +117,7 @@ img {
 
 header#hero {
   /* height: 30rem; */
-  height: 45vh;
+  height: 50vh;
   background-image: linear-gradient(#3a8ef6, #7c1add);
 }
 .container-headline {
@@ -212,6 +213,8 @@ header#hero {
   padding: 3% 0;
   text-align: center;
   background-color: #F6F9FF;
+
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, .3);
 }
 .logo-pelayanan {
   margin-bottom: .5rem;
@@ -236,6 +239,7 @@ header#hero {
   display: flex;
   background-color: #EEF4FF;
   /* height: 20rem; */
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, .3);
 }
 .container-img-kenalan {
   /* flex-grow: 1; */
@@ -280,8 +284,8 @@ header#hero {
 }
 
 .card-artikel {
-  width: 31%;
-  border: 1px solid #296fde;
+  width: 23%;
+  /* border: 1px solid #296fde; */
   background-color: #F6F9FF;
   border-radius: 12px;
   display: flex;
@@ -289,6 +293,9 @@ header#hero {
   align-self: center;
   flex-direction: column;
   /* height: 42rem; */
+  height: 500px;
+
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, .3);
 }
 header.artikel {
   color: #296fde;
@@ -299,15 +306,18 @@ header.artikel {
 }
 
 .title-artikel {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: 110%;
   font-weight: 500;
   color: #3a8ef6;
   padding: 20px;
 }
 .deskripsi-artikel {
-  font-size: 1.2rem;
+  font-size: 100%;
   color: #5F6D7E;
   padding: 5px 25px;
+  overflow: hidden;
+  height: 150px;
 }
 .selengkapnya {
   color: #296fde;
@@ -340,4 +350,16 @@ header.artikel {
   /* min-width: 45%; */
   font-weight: 600;
   letter-spacing: 1px;
+}
+.img-artikel img {
+  object-fit: cover;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.btn-artikel:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, .8);
 }
