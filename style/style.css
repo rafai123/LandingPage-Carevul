@@ -8,6 +8,9 @@
   text-decoration: none;
   border: 1px solid black;
 }
+nav {
+  padding: 5px 0;
+}
 
 .container {
   margin: auto;
@@ -19,7 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 1.2rem;
+  font-size: 150%;
   color: #5f6d7e;
 }
 
@@ -64,9 +67,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 45%;
+  width: 40%;
   font-weight: 600;
   letter-spacing: 1px;
+  /* border: 1px solid #296fde;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 45%;
+  font-weight: 600;
+  letter-spacing: 1px; */
 }
 
 .btn-white {
@@ -84,17 +97,26 @@
 /* Hero Banner */
 .container-hero {
   display: flex;
-  height: 30rem;
+  /* height: 30rem; */
+  height: 45vh;
+  /* height: 100%; */
   justify-content: space-between;
 }
 
 .container-image-hero {
-  width: 40%;
+  width: 50%;
   height: 100%;
+  justify-content: flex-end;
+  /* margin-left: auto; */
+  /* margin-bottom: auto; */
+}
+img {
+  object-fit: cover;
 }
 
 header#hero {
-  height: 30rem;
+  /* height: 30rem; */
+  height: 45vh;
   background-image: linear-gradient(#3a8ef6, #7c1add);
 }
 .container-headline {
@@ -120,27 +142,36 @@ header#hero {
 .logo-white {
   /* width: 20rem; */
   /* height: ; */
+  /* background-image: url("../assets/images/carevul4x-white.png"); */
   padding-left: 15px;
   display: inline-block;
-  height: 110%;
+  /* height: 110%; */
+  width: 50%;
   padding-bottom: 1%;
 }
 
 .text-tagline {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 120%;
   letter-spacing: 2px;
   margin-bottom: 2.2rem;
   width: 80%;
 }
 .btn-hero {
-  padding: 15px;
+  padding: 1% 0;
   margin: 0;
   color: #296fde;
   background-color: #fff;
   font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: 2px;
+  /* padding: 15px;
+  margin: 0;
+  color: #296fde;
+  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 2px; */
 }
 .btn-hero:hover {
   box-shadow: 2px 2px 8px #296fde;
