@@ -125,12 +125,12 @@ header#hero {
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  height: 30rem;
+  /* height: 30rem; */
 }
 .title-hero {
   font-weight: 700;
   /* font-size: 2.2rem; */
-  font-size: 300%;
+  font-size: 200%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,10 +152,11 @@ header#hero {
 
 .text-tagline {
   color: #fff;
-  font-size: 120%;
+  font-size: 90%;
   letter-spacing: 2px;
-  margin-bottom: 2.2rem;
-  width: 80%;
+  /* margin-bottom: 2.2rem; */
+  margin-bottom: 2%;
+  width: 90%;
 }
 .btn-hero {
   padding: 1% 0;
