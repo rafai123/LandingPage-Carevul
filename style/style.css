@@ -369,6 +369,9 @@ header.artikel {
 .text-primary {
   color: #296fde;
 }
+.text-secondary {
+  color: #363636;
+}
 
 /* Footer */
 .container-footer {
@@ -382,6 +385,11 @@ header.artikel {
 .title-sub {
   font-weight: 600;
   font-size: 115%;
+}
+
+.copyright-footer {
+  text-align: center;
+  padding: 10px;
 }
 
 .container-footer-sub {
